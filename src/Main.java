@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         ZooManagement zoo =new ZooManagement();
         System.out.println(zoo.zooName+"comporte"+zoo.nbrCages);
-
+        Zoo myZoo = new Zoo();
     Scanner scanner = new Scanner(System.in);
 
 
@@ -26,6 +26,10 @@ public class Main {
 
 
         scanner.close();
+        System.out.println(myZoo.isZooFull(myZoo.nbrAnimals));
+        Zoo ze = new Zoo();
+        System.out.println(Zoo.compareZoo(myZoo,ze));
+
 }}
 
 

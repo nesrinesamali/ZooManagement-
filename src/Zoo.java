@@ -56,7 +56,17 @@ public class Zoo {
         }
         return index;
     }
+    boolean isZooFull(int nbrAnimals){
+        if (nbrAnimals<this.nbrCages){
+            return false;
+        }else return true;
+    }
 
+    static Zoo compareZoo(Zoo z1,Zoo z2){
+        if (z1.nbrAnimals>z2.nbrAnimals){
+            return z1;
+        }else return null;
+    }
 
     @Override
     public String toString() {
