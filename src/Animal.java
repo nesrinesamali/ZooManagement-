@@ -25,7 +25,7 @@ public class Animal {
                     ", isMammal=" + isMammal +
                     '}';
         }
-
+//changed code
     }
 
 
