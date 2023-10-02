@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 
@@ -31,7 +32,6 @@ public class Main {
         System.out.println(Zoo.compareZoo(myZoo,ze));
 
 }}
-
 
 
 
